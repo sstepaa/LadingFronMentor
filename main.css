@@ -1,0 +1,136 @@
+/* Genereal */
+*{
+    box-sizing: border-box;
+}
+/* Variables de los colores a utilizar */
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Sof-Magenta: hsl(300, 69%, 71%);
+    }
+
+body , html{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background: url(images/bg-desktop.svg) var(--Violet);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* Header de la pagina \\ Logo */
+.cabecera{
+    width: 100%;
+    height: auto;
+}
+
+.cabecera img {
+    display: block;
+    width: 18rem;
+    margin: 5rem 0 5rem 5rem;
+}
+
+/* Card flex */
+.card{
+    display: flex;
+    gap: 2rem;
+
+    height: 60vh;
+}
+/* Card banner */
+
+.card__rigth{
+    margin-right: 2rem;
+    color: #fff;
+
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.card__rigth h1{
+    text-align: left;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 38px;
+    margin-bottom: 1rem;
+}
+
+.card__rigth p { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.7rem;
+    margin-top: 0;
+}
+
+/* Boton del card banner */
+.btn{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--Violet);
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10rem;
+
+    -webkit-box-shadow: 3px 4px 13px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 13px -6px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 13px -6px rgba(0,0,0,0.75); 
+}
+
+
+
+/* Card imagen */
+.card__left{
+    flex-basis: 60%;
+}
+
+.card__left img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+
+}
+
+.content__icon{
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.content__icon i { 
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+
+
+
+

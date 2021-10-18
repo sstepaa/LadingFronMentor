@@ -1,0 +1,48 @@
+@media screen and (max-width:768px){
+    body{
+        overflow: scroll;
+        display: flex;
+        height:auto;
+    }
+    /* Header */
+    .cabecera img{
+        width: 15rem;
+    }
+    /* card flex */
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card__left img{
+        width: 40rem;
+    }
+
+    .card__rigth{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        align-self: center;
+        max-width: 768px;
+        width: 66%;
+    }
+
+    .card__rigth h1{
+        text-align: center;
+    }
+
+    .card__rigth p{
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    footer{
+        
+    }
+
+    .content__icon{
+        display: block;
+        margin-top: 50vh;
+        margin-right: 8vh;
+    }
+}
